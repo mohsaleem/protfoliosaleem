@@ -70,6 +70,7 @@ body {
 	box-shadow: 0 4px 8px 0 rgba( 0.2, 0.4, 0.6, 0.8);
 	width: 200px;
 	text-align: center;
+	margin: 15px;
 }
 .form-container {
 	margin: 0 30px;
@@ -126,5 +127,18 @@ input[type = submit] :hover{
 }
 .bottom-div p{
 	margin-top: 20px;
+}
+.bottom-div p{
+	margin: 20px 25px;
+	padding: 20px 20px;
+}
+
+@media screen and (max-width: 600px){
+	.project-flex{
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-around;
+	}
+	.project
 }
 
